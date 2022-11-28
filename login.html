@@ -1,31 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/estilo.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="css/estilologin.css">
 </head>
+
 <body>
-    <div class="wrapper fadeInDown">
-        <div id="formContent">
-          <!-- Tabs Titles -->
-          <h2 class="active" > <a href="/LOGIN.html">INGRESAR</a> </h2>
-          <h2 class="inactive underlineHover"> <a href="/registrarte.html">REGISTARTE</a> </h2>
-          <!-- Login Form -->
-          <form>
-            <input type="text" id="login" class="fadeIn second" name="Usuario" placeholder=" Usuario">
-            <input type="text" id="password" class="fadeIn third" name="login" placeholder=" Contraseña">
-            <input type="submit" class="fadeIn fourth" value="Log In">
-          </form>
-      
-          <!-- Remind Passowrd -->
-          <div id="formFooter">
-            <a class="underlineHover" href="#">Olvidaste tu contraseña?</a>
-          </div>
-      
-        </div>
+  <nav class="navbar navbar-expand-lg " style="background-color: #b2b2ef; ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/index.html">DICOUSS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/productos.html">Productos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categorias
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Polos</a></li>
+              <li><a class="dropdown-item" href="#">Casacas</a></li>
+
+              <li><a class="dropdown-item" href="#">Pantalones</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="/carrito.html">Carrito de Compras</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-light" type="submit">BUSCAR</button>
+        </form>
+        <ul class="navbar-nav me-5 mb-5 mb-lg-0 ">
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                class="bi bi-person-circle" viewBox="0 0 16 16" style="color: aliceblue;">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                <path fill-rule="evenodd"
+                  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+              </svg>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="login.html">Iniciar Sesion</a></li>
+              <li><a class="dropdown-item" href="registrarte.html">Registro</a></li>
+            </ul>
+          </li>
+        </ul>
       </div>
+    </div>
+  </nav>
+
+  <div class="wrapper fadeInDown">
+    <div id="formContent">
+      <!-- Tabs Titles -->
+      <div id="formFooter">
+        <h2 class="active"> <a href="/LOGIN.html">INGRESAR</a> </h2>
+        <h2 class="inactive underlineHover"> <a href="/registrarte.html">REGISTARTE</a> </h2>
+      </div>
+      <br>
+      <!-- Login Form -->
+      <form>
+        <input type="text" id="login" class="fadeIn second" name="Usuario" placeholder=" Usuario">
+        <input type="text" id="password" class="fadeIn third" name="login" placeholder=" Contraseña">
+        <input type="submit" class="fadeIn fourth" value="INGRESAR">
+      </form>
+
+      <!-- Remind Passowrd -->
+      <div id="formFooter">
+        <a class="underlineHover" href="#">Olvidaste tu contraseña?</a>
+      </div>
+
+    </div>
+  </div>
 </body>
+
 </html>

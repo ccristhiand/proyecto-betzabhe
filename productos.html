@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg " style="background-color: #b2b2ef;">
+    <nav class="navbar navbar-expand-lg " style="background-color: #b2b2ef; ">
         <div class="container-fluid">
             <a class="navbar-brand" href="/index.html">DICOUSS</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -29,10 +29,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                        <a class="nav-link " aria-current="page" href="/index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="productos.html">Productos</a>
+                        <a class="nav-link active" href="/productos.html">Productos</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -47,15 +47,33 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link "  href="/carrito.html">Carrito de Compras</a>
+                        <a class="nav-link " href="/carrito.html">Carrito de Compras</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
                     <button class="btn btn-light" type="submit">BUSCAR</button>
                 </form>
+                <ul class="navbar-nav me-5 mb-5 mb-lg-0 ">
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                class="bi bi-person-circle" viewBox="0 0 16 16" style="color: aliceblue;">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                <path fill-rule="evenodd"
+                                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                            </svg>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="login.html">Iniciar Sesion</a></li>
+                            <li><a class="dropdown-item" href="registrarte.html">Registrate</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </div>
+
     </nav>
     <br>
     <div class="container">
@@ -64,10 +82,13 @@
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="img/p1.webp" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title" style="font-weight: bold;" >Pantalon Plomo</h5>
+                        <h5 class="card-title" style="font-weight: bold;">Pantalon Plomo</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
-                        <a href="/detalles.html" class="btn " style="background-color: #b2b2ef ; text-align: center; "> Ver Mas</a>
+                        <a href="/carrito.html" class="btn "
+                            style="background-color: #b2b2ef ; text-align: center;color: beige; "> Agregar a Carrito</a>
+                        <a href="/detalles.html" class="btn "
+                            style="background-color: #4c4c67 ; text-align: center; color: beige;"> Detalles</a>
                     </div>
                 </div>
             </div>
@@ -78,7 +99,10 @@
                         <h5 class="card-title">Polo Plomo</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
-                        <a href="/detalles.html" class="btn " style="background-color: #b2b2ef ; text-align: center; "> Ver Mas</a>
+                        <a href="/carrito.html" class="btn "
+                            style="background-color: #b2b2ef ; text-align: center;color: beige; "> Agregar a Carrito</a>
+                        <a href="/detalles.html" class="btn "
+                            style="background-color: #4c4c67 ; text-align: center; color: beige;"> Detalles</a>
                     </div>
                 </div>
             </div>
@@ -89,7 +113,10 @@
                         <h5 class="card-title">Chompa de Navidad</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
-                        <a href="/detalles.html" class="btn " style="background-color: #b2b2ef ; text-align: center;"> Ver Mas</a>
+                        <a href="/carrito.html" class="btn "
+                            style="background-color: #b2b2ef ; text-align: center;color: beige; "> Agregar a Carrito</a>
+                        <a href="/detalles.html" class="btn "
+                            style="background-color: #4c4c67 ; text-align: center; color: beige;"> Detalles</a>
                     </div>
                 </div>
             </div>
@@ -100,7 +127,10 @@
                         <h5 class="card-title">Chompa de Navidad</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
-                        <a href="/detalles.html" class="btn " style="background-color: #b2b2ef ; text-align: center;"> Ver Mas</a>
+                        <a href="/carrito.html" class="btn "
+                            style="background-color: #b2b2ef ; text-align: center;color: beige; "> Agregar a Carrito</a>
+                        <a href="/detalles.html" class="btn "
+                            style="background-color: #4c4c67 ; text-align: center; color: beige;"> Detalles</a>
                     </div>
                 </div>
             </div>
@@ -114,7 +144,11 @@
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of
                                 the card's content.</p>
-                            <a href="/detalles.html" class="btn " style="background-color: #b2b2ef ; text-align: center; ">Ver Mas</a>
+                            <a href="/carrito.html" class="btn "
+                                style="background-color: #b2b2ef ; text-align: center;color: beige; "> Agregar a
+                                Carrito</a>
+                            <a href="/detalles.html" class="btn "
+                                style="background-color: #4c4c67 ; text-align: center; color: beige;"> Detalles</a>
                         </div>
                     </div>
                 </div>
@@ -126,7 +160,11 @@
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of
                                 the card's content.</p>
-                            <a href="/detalles.html" class="btn " style="background-color: #b2b2ef ; text-align: center; ">Ver Mas</a>
+                            <a href="/carrito.html" class="btn "
+                                style="background-color: #b2b2ef ; text-align: center;color: beige; "> Agregar a
+                                Carrito</a>
+                            <a href="/detalles.html" class="btn "
+                                style="background-color: #4c4c67 ; text-align: center; color: beige;"> Detalles</a>
                         </div>
                     </div>
                 </div>
@@ -138,7 +176,11 @@
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of
                                 the card's content.</p>
-                            <a href="/detalles.html" class="btn " style="background-color: #b2b2ef ; text-align: center; ">Ver Mas</a>
+                            <a href="/carrito.html" class="btn "
+                                style="background-color: #b2b2ef ; text-align: center;color: beige; "> Agregar a
+                                Carrito</a>
+                            <a href="/detalles.html" class="btn "
+                                style="background-color: #4c4c67 ; text-align: center; color: beige;"> Detalles</a>
                         </div>
                     </div>
                 </div>
@@ -150,7 +192,11 @@
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of
                                 the card's content.</p>
-                            <a href="/detalles.html" class="btn " style="background-color: #b2b2ef ; text-align: center; ">Ver Mas</a>
+                            <a href="/carrito.html" class="btn "
+                                style="background-color: #b2b2ef ; text-align: center;color: beige; "> Agregar a
+                                Carrito</a>
+                            <a href="/detalles.html" class="btn "
+                                style="background-color: #4c4c67 ; text-align: center; color: beige;"> Detalles</a>
                         </div>
                     </div>
                 </div>
@@ -164,8 +210,11 @@
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of
                                     the card's content.</p>
+                                <a href="/carrito.html" class="btn "
+                                    style="background-color: #b2b2ef ; text-align: center;color: beige; "> Agregar a
+                                    Carrito</a>
                                 <a href="/detalles.html" class="btn "
-                                    style="background-color: #b2b2ef ; text-align: center; ">Ver Mas</a>
+                                    style="background-color: #4c4c67 ; text-align: center; color: beige;"> Detalles</a>
                             </div>
                         </div>
                     </div>
@@ -177,8 +226,11 @@
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of
                                     the card's content.</p>
+                                <a href="/carrito.html" class="btn "
+                                    style="background-color: #b2b2ef ; text-align: center;color: beige; "> Agregar a
+                                    Carrito</a>
                                 <a href="/detalles.html" class="btn "
-                                    style="background-color: #b2b2ef ; text-align: center; ">Ver Mas</a>
+                                    style="background-color: #4c4c67 ; text-align: center; color: beige;"> Detalles</a>
                             </div>
                         </div>
                     </div>
@@ -190,8 +242,11 @@
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of
                                     the card's content.</p>
+                                <a href="/carrito.html" class="btn "
+                                    style="background-color: #b2b2ef ; text-align: center;color: beige; "> Agregar a
+                                    Carrito</a>
                                 <a href="/detalles.html" class="btn "
-                                    style="background-color: #b2b2ef ; text-align: center; ">Ver MasA</a>
+                                    style="background-color: #4c4c67 ; text-align: center; color: beige;"> Detalles</a>
                             </div>
                         </div>
                     </div>
@@ -203,8 +258,11 @@
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk of
                                     the card's content.</p>
+                                <a href="/carrito.html" class="btn "
+                                    style="background-color: #b2b2ef ; text-align: center;color: beige; "> Agregar a
+                                    Carrito</a>
                                 <a href="/detalles.html" class="btn "
-                                    style="background-color: #b2b2ef ; text-align: center; ">Ver Mas</a>
+                                    style="background-color: #4c4c67 ; text-align: center; color: beige;"> Detalles</a>
                             </div>
                         </div>
                     </div>
